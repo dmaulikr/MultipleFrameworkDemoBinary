@@ -18,12 +18,12 @@ let package = Package(
     .binaryTarget(
       name: "FeatureA",
       url: "https://github.com/dmaulikr/MultipleFrameworkDemoBinary/releases/download/1.0.0/FeatureA-1.0.0.zip",
-      checksum: "3fe49d0248d4d36377c06f73c1ec9b07146e88696c84d95a98341e41948184d4"
+      checksum: "8ffea4c2a45850c1ee5878678c4982c4e1cdfcd24ae194cc949a568869c2d7ac"
     ),
     .binaryTarget(
       name: "FeatureB",
       url: "https://github.com/dmaulikr/MultipleFrameworkDemoBinary/releases/download/1.0.0/FeatureB-1.0.0.zip",
-      checksum: "2ec95735348c2b55bce4ccee67e822eec28a1596dffab8fe3fa4b3a38db4f218"
+      checksum: "f7aadc33bd766dec73f40da4e926d4620395146ffa4ea38f529e4fc790d30d94"
     ),
     .binaryTarget(
       name: "FeatureC",
