@@ -5,9 +5,9 @@ let package = Package(
   name: "MultipleFrameworkDemoBinary",
   platforms: [.iOS(.v13)],
   products: [
-    .library(name: "FeatureA", targets: ["FeatureA"]),
-    .library(name: "FeatureB", targets: ["FeatureB"]),
-    .library(name: "FeatureC", targets: ["FeatureC"]),
+    .library(name: "FeatureA", targets: ["CoreKit", "FeatureA"]),
+    .library(name: "FeatureB", targets: ["CoreKit", "FeatureB"]),
+    .library(name: "FeatureC", targets: ["CoreKit", "FeatureC"]),
   ],
   targets: [
     .binaryTarget(
